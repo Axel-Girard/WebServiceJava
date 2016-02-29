@@ -12,12 +12,8 @@ public class CSVRapport implements Rapport {
 		this.ligneDeRapports.add(ligneDeRapport);
 	}
 
-
-
-
 	@Override
 	public List getData() {
-
 		return this.ligneDeRapports;
 	}
 

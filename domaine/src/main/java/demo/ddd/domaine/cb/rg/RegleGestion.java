@@ -2,7 +2,7 @@ package demo.ddd.domaine.cb.rg;
 
 import demo.ddd.domaine.cb.exceptions.FunctionalException;
 
-public class RegleGestion implements RG {
+public class RegleGestion implements RG<FunctionalException> {
 	public void isCardOk(String numCard, Integer crytogramme, String date)
 			throws FunctionalException {
 		if (isNumCardValid(numCard) && isDateCardValid(date)) {

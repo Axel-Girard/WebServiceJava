@@ -33,7 +33,6 @@ public class Critere implements ICritere {
 
 	@Override
 	public boolean isCREDone() {
-		// TODO Auto-generated method stub
 		return this.isCREDone;
 	}
 
