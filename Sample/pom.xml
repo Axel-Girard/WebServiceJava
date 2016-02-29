@@ -5,12 +5,11 @@
   <version>1</version>
   <packaging>pom</packaging>
   <modules>
-  	<module>./API</module>
-  	<module>./application</module>
-  	<module>./domaine</module>
-  	<module>./infra</module>
-  	<module>./parent</module>
-  	<module>./presentation</module>
-
+  	<module>../API</module>
+  	<module>../application</module>
+  	<module>../domaine</module>
+  	<module>../infra</module>
+  	<module>../parent</module>
+  	<module>../presentation</module>
   </modules>
 </project>

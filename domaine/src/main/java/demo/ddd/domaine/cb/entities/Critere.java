@@ -4,7 +4,6 @@ import demo.ddd.domaine.ec.valuesobject.ICritere;
 
 public class Critere implements ICritere {
 
-	
 	private String idBank;
 	private String idUser;
 	private String cp;
@@ -16,23 +15,20 @@ public class Critere implements ICritere {
 		this.cp=CP;
 		this.isCREDone=creDone;
 	}
-	
+
 	@Override
 	public String getBank() {
 		return this.idBank;
-		
 	}
 
 	@Override
 	public String getUser() {
 		return this.idUser;
-		
 	}
 
 	@Override
 	public String getCP() {
 		return this.cp;
-		
 	}
 
 	@Override
