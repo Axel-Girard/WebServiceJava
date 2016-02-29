@@ -1,6 +1,6 @@
 package demo.ddd.domaine.client.valuesobject;
 
-import demo.ddd.domaine.commande.entities.IDCommande;
+import demo.ddd.domaine.commande.valuesobject.IIDCommande;
 
 public interface IClient {
 
@@ -8,7 +8,7 @@ public interface IClient {
 
 	public void setNom(String nom);
 
-	public IDCommande getIDCommande();
+	public IIDCommande getIDCommande();
 
-	public void setIDCommande(IDCommande idcommande);
+	public void setIDCommande(IIDCommande idcommande);
 }

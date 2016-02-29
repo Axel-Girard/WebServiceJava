@@ -7,9 +7,9 @@
     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
 	<context:annotation-config />
-	
 
-	<bean id="application" name="application"  scope="singleton"
+
+	<bean id="application" name="application" scope="singleton"
 		class="demo.ddd.application.Application">
 	</bean>
 

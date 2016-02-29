@@ -2,11 +2,12 @@ package demo.ddd.domaine.client.entities;
 
 import demo.ddd.domaine.client.valuesobject.IClient;
 import demo.ddd.domaine.commande.entities.IDCommande;
+import demo.ddd.domaine.commande.valuesobject.IIDCommande;
 
 public class Client implements IClient {
 
 	private String nom;
-	private IDCommande idcommande;
+	private IIDCommande idcommande;
 
 	public Client(){
 		super();
@@ -22,11 +23,11 @@ public class Client implements IClient {
 		this.nom = nom;
 	}
 	@Override
-	public IDCommande getIDCommande() {
+	public IIDCommande getIDCommande() {
 		return idcommande;
 	}
 	@Override
-	public void setIDCommande(IDCommande idcommande) {
+	public void setIDCommande(IIDCommande idcommande) {
 		this.idcommande = idcommande;
 	}
 }

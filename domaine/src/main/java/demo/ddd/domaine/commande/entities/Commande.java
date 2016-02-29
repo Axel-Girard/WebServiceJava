@@ -7,9 +7,9 @@ import demo.ddd.domaine.commande.valuesobject.IProduit;
 
 public class Commande implements ICommande{
 
-	private List<Produit> produits;
+	private List<IProduit> produits;
 
-	public Commande(List<Produit> produits) {
+	public Commande(List<IProduit> produits) {
 		super();
 		this.produits = produits;
 	}

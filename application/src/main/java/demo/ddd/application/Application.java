@@ -18,20 +18,16 @@ public class Application implements IApplication {
 
 	final static Logger LOG = LoggerFactory.getLogger(Application.class);
 
-	/**
-	 */
-	
 	public boolean validerPaiement(String numCard, Double price, Integer crytogramme, String date){
 		boolean resultat = false;
-		
+
 		try {
 			service.validerPaiement(numCard, price, crytogramme, date);
 			resultat =true;
-			} catch (Exception e) {
-			// TODO Auto-generated catch block
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 		return resultat;
 	}
 
